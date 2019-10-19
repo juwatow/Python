@@ -4,7 +4,7 @@ def binary_search(orderedList, searchItem):
     highIndex = len(orderedList) - 1
 
     while lowIndex <= highIndex: # while we haven't narrowed to 1 element
-        midIndex = (lowIndex + highIndex) / 2
+        midIndex = int((lowIndex + highIndex) / 2)
         guess = orderedList[midIndex]
         
         if guess == searchItem: # search item has been found
@@ -17,5 +17,5 @@ def binary_search(orderedList, searchItem):
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
-print binary_search(my_list, 10) #case: search term in the list
-print binary_search(my_list, 20) #case: search term not in the list
+print(binary_search(my_list, 10)) #case: search term in the list
+print(binary_search(my_list, 20)) #case: search term not in the list
