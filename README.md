@@ -6,7 +6,7 @@ This repo contains the implementation of some algorithms in pyton and details re
 
 ## Binary Search
 When we search for an element using simple search, in the worst case we might have to look at every single element. So for a list of 8 numbers, we'd have to check 8 numbers at most. For binary search, we have to check log n elements in the worst case. For a list of 8 elements, log 8 == 3, because 2 cubed == 8. So for a list of 8 numbers, we would have to check 3 numbers at most. O(log n) => log time.
-- Run on repl.it: https://repl.it/@juwatow/binary-search
+- Run on repl.it: https://repl.it/@juwatow/python-binary-search
 
 ## SelectionSort
 O(n*n)
